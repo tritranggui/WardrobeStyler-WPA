@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Webcam from "react-webcam";
-import { Camera, Upload, Shirt, Sparkles, ArrowRight, ArrowLeft, Trash2, Check } from "lucide-react";
+import { Camera, Upload, Shirt, Sparkles, ArrowRight, ArrowLeft, Trash2, Check, Download, Share2, Wifi, WifiOff } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
